@@ -12,7 +12,7 @@ class Main {
 
       while(true)
         {
-          System.out.println("Podaj liczbe: ");
+          System.out.println("Podaj liczbe  : ");
           int x=scan.nextInt();
           if(x==1)
           {
