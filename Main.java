@@ -22,7 +22,10 @@ class Main {
                 String name= scan.nextLine();
                 System.out.println("Podaj wiek: ");
                 int age = scan.nextInt();
-                s.addStudent(new Student(name, age));
+                scan.nextLine();
+                System.out.println("Podaj date urodzenia: ");
+                String birthday= scan.nextLine();
+                s.addStudent(new Student(name, age, birthday));
           }
           else if(x==2)
           {
